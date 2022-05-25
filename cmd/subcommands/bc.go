@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Clownsss/gotron-sdk/pkg/address"
-	"github.com/Clownsss/gotron-sdk/pkg/common"
-	"github.com/Clownsss/gotron-sdk/pkg/proto/core"
+	"github.com/Paven-Org/gotron-sdk/pkg/address"
+	"github.com/Paven-Org/gotron-sdk/pkg/common"
+	"github.com/Paven-Org/gotron-sdk/pkg/proto/core"
 	"github.com/fatih/structs"
 	"github.com/golang/protobuf/ptypes"
 	"github.com/spf13/cobra"

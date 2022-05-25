@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Clownsss/gotron-sdk/pkg/client"
-	"github.com/Clownsss/gotron-sdk/pkg/client/transaction"
-	"github.com/Clownsss/gotron-sdk/pkg/common"
-	c "github.com/Clownsss/gotron-sdk/pkg/common"
-	"github.com/Clownsss/gotron-sdk/pkg/store"
+	"github.com/Paven-Org/gotron-sdk/pkg/client"
+	"github.com/Paven-Org/gotron-sdk/pkg/client/transaction"
+	"github.com/Paven-Org/gotron-sdk/pkg/common"
+	c "github.com/Paven-Org/gotron-sdk/pkg/common"
+	"github.com/Paven-Org/gotron-sdk/pkg/store"
 	color "github.com/fatih/color"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
@@ -128,8 +128,8 @@ func init() {
 var (
 	// VersionWrapDump meant to be set from main.go
 	VersionWrapDump = ""
-	versionLink     = "https://api.github.com/repos/Clownsss/gotron-sdk/releases/latest"
-	versionTagLink  = "https://api.github.com/repos/Clownsss/gotron-sdk/git/ref/tags/"
+	versionLink     = "https://api.github.com/repos/Paven-Org/gotron-sdk/releases/latest"
+	versionTagLink  = "https://api.github.com/repos/Paven-Org/gotron-sdk/git/ref/tags/"
 	versionFormat   = regexp.MustCompile("v[0-9]+-[a-z0-9]{7}")
 )
 

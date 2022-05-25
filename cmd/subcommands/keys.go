@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Clownsss/gotron-sdk/pkg/account"
-	c "github.com/Clownsss/gotron-sdk/pkg/common"
+	"github.com/Paven-Org/gotron-sdk/pkg/account"
+	c "github.com/Paven-Org/gotron-sdk/pkg/common"
 	"github.com/fatih/color"
 
-	"github.com/Clownsss/gotron-sdk/pkg/ledger"
-	"github.com/Clownsss/gotron-sdk/pkg/mnemonic"
-	"github.com/Clownsss/gotron-sdk/pkg/store"
+	"github.com/Paven-Org/gotron-sdk/pkg/ledger"
+	"github.com/Paven-Org/gotron-sdk/pkg/mnemonic"
+	"github.com/Paven-Org/gotron-sdk/pkg/store"
 	"github.com/spf13/cobra"
 	"github.com/tyler-smith/go-bip39"
 )

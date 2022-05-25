@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/Clownsss/gotron-sdk/pkg/address"
-	"github.com/Clownsss/gotron-sdk/pkg/client/transaction"
-	"github.com/Clownsss/gotron-sdk/pkg/common"
-	"github.com/Clownsss/gotron-sdk/pkg/keystore"
-	"github.com/Clownsss/gotron-sdk/pkg/store"
+	"github.com/Paven-Org/gotron-sdk/pkg/address"
+	"github.com/Paven-Org/gotron-sdk/pkg/client/transaction"
+	"github.com/Paven-Org/gotron-sdk/pkg/common"
+	"github.com/Paven-Org/gotron-sdk/pkg/keystore"
+	"github.com/Paven-Org/gotron-sdk/pkg/store"
 	"github.com/spf13/cobra"
 )
 
